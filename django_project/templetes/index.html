@@ -1,7 +1,9 @@
-<!-- <h1>Hello {{name}} of age {{age}} from {{address}}, how are you?</h1> -->
+<!-- <h1>Hello {{name}} of age {{age}} from {{address}}, how are you?</h1>
  <form method="POST" action="counter">
    {% csrf_token %}
     <textarea name="text"  rows="25" cols="50"></textarea><br>
     <input type="submit">
- </form>
-v
+ </form> -->
+ {% load static %}
+ <link rel="stylesheet" href="{% static 'style.css' %}">
+<h1>hello world</h1>
